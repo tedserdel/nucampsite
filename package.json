@@ -1,12 +1,29 @@
 {
   "name": "nucampsite",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A fictional campsites review website.",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel --open",
+    "build": "parcel build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Amado Tanglao",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tedserdel/nucampsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tedserdel/nucampsite/issues"
+  },
+  "homepage": "https://github.com/tedserdel/nucampsite#readme",
+  
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bootstrap": "^5.2.3"
+  }
 }
